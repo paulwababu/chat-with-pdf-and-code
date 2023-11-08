@@ -14,20 +14,19 @@ from llama_index import (
 )
 from llama_index.llms import OpenAI
 
-
 def load_and_unzip_file(uploaded_file):
     with zipfile.ZipFile(uploaded_file, 'r') as zip_ref:
-        zip_ref.extractall('/home/appuser/{repo_name}')
+        zip_ref.extractall('/tmp')
     repo_name = uploaded_file.name.replace(".zip", "")
-    clone_path = f"/home/appuser/{repo_name}"#/home/appuser/{repo_name}"
+    clone_path = f"/tmp/{repo_name}"
     GPTRepoReader = download_loader("GPTRepoReader")
-    loader = GPTRepoReader(custom_path=clone_path)
-    documents = loader.load_data()
+    loader = GPTRepoReader()
+    documents = loader.load_data(repo_path=clone_path)
     return documents
 
 def delete_unzipped_folder(uploaded_file):
     repo_name = uploaded_file.name.replace(".zip", "")
-    clone_path = f"/home/appuser/{repo_name}"
+    clone_path = f"/tmp/{repo_name}"
     if os.path.exists(clone_path):
         shutil.rmtree(clone_path)
 
