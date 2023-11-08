@@ -9,6 +9,13 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
 from langchain.llms import HuggingFaceHub
+import getpass
+import os
+
+def check_password():
+    load_dotenv()
+    password = getpass.getpass('Enter your password: ')
+    return password == os.getenv("PASSWORD")
 
 def get_pdf_text(pdf_docs):
     text = ""
