@@ -16,7 +16,7 @@ from llama_index.llms import OpenAI
 
 def load_and_unzip_file(uploaded_file):
     with zipfile.ZipFile(uploaded_file, 'r') as zip_ref:
-        zip_ref.extractall('/tmp')
+        zip_ref.extractall('./')
     repo_name = uploaded_file.name.replace(".zip", "")
     clone_path = f"./{repo_name}"
     GPTRepoReader = download_loader("GPTRepoReader")
