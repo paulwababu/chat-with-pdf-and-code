@@ -9,13 +9,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
 from langchain.llms import HuggingFaceHub
-import getpass
 import os
-
-def check_password():
-    load_dotenv()
-    password = getpass.getpass('Enter your password: ')
-    return password == os.getenv("PASSWORD")
 
 def get_pdf_text(pdf_docs):
     text = ""
@@ -72,13 +66,16 @@ def handle_userinput(user_question):
 
 
 def main():
-    if not check_password():
-        st.error('Invalid password. Please try again.')
-        return
     load_dotenv()
     st.set_page_config(page_title="Chat with multiple PDFs",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
+    st.sidebar.subheader("Authentication")
+    password = st.sidebar.text_input("Enter your password", type="password")
+
+    if password != os.getenv("PASSWORD"):
+        st.error('Invalid password. Please try again.')
+        return
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
