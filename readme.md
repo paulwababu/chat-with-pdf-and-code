@@ -1,65 +1,51 @@
-# MultiPDF Chat App
+# Chat with Git Repository: A Streamlit Application
 
-> You can find the tutorial for this project on [YouTube](https://youtu.be/dXxQ0LR-3Hg).
+This application is a Streamlit-based web application that allows users to upload a zipped GitHub repository and ask questions about it. The application uses the Llama library to create a conversational AI that can answer questions about the contents of the repository.
 
-## Introduction
-------------
-The MultiPDF Chat App is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
+## Features
 
-## How It Works
-------------
+- Upload a zipped GitHub repository.
+- Ask questions about the uploaded repository.
+- Get AI-generated responses to your questions.
 
-![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
+## Installation
 
-The application follows these steps to provide responses to your questions:
+To run this application, you'll need to install the required Python libraries. You can do this by running the following command:
 
-1. PDF Loading: The app reads multiple PDF documents and extracts their text content.
+```bash
+pip install streamlit llama
+```
 
-2. Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
+You'll also need to set up the OpenAI API key in your environment. You can do this by setting the `OPENAI_API_KEY` environment variable:
 
-3. Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
-
-4. Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
-
-5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
-
-## Dependencies and Installation
-----------------------------
-To install the MultiPDF Chat App, please follow these steps:
-
-1. Clone the repository to your local machine.
-
-2. Install the required dependencies by running the following command:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
-```commandline
-OPENAI_API_KEY=your_secrit_api_key
+```bash
+export OPENAI_API_KEY=your_openai_api_key
 ```
 
 ## Usage
------
-To use the MultiPDF Chat App, follow these steps:
 
-1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
+To start the application, navigate to the directory containing the application and run the following command:
 
-2. Run the `main.py` file using the Streamlit CLI. Execute the following command:
-   ```
-   streamlit run app.py
-   ```
+```bash
+streamlit run app.py
+```
 
-3. The application will launch in your default web browser, displaying the user interface.
+This will start the Streamlit server and open the application in your web browser.
 
-4. Load multiple PDF documents into the app by following the provided instructions.
+Once the application is running, you can use it as follows:
 
-5. Ask questions in natural language about the loaded PDFs using the chat interface.
+1. In the sidebar, enter your password in the "Authentication" section. The default password is set in the `.env` file.
+
+2. In the "Your Repository" section, click "Browse files" to upload your zipped GitHub repository.
+
+3. After uploading the repository, click "Process" to process the repository. This will unzip the repository, read the contents of the files, and create an AI chat engine that can answer questions about the repository.
+
+4. In the main section of the application, enter your question in the "Ask a question about your repository:" field and press Enter. The application will display an AI-generated response to your question.
 
 ## Contributing
-------------
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
--------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
