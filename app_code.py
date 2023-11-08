@@ -10,17 +10,23 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
 from langchain.llms import HuggingFaceHub
+from io import BytesIO
+import zipfile
 
-def clone_and_load_repo(git_url):
-    repo_name = git_url.split("/")[-1].replace(".git", "")
+def load_and_unzip_file(uploaded_file):
+    with zipfile.ZipFile(uploaded_file, 'r') as zip_ref:
+        zip_ref.extractall('/tmp')
+    repo_name = uploaded_file.name.replace(".zip", "")
     clone_path = f"/tmp/{repo_name}"
-    os.system(f"git clone {git_url} {clone_path}")
-    with open(clone_path, "r") as file:
-        text = file.read()
+    text = ""
+    for root, dirs, files in os.walk(clone_path):
+        for file in files:
+            with open(os.path.join(root, file), "r") as file:
+                text += file.read()
     return text
 
-def delete_repo(git_url):
-    repo_name = git_url.split("/")[-1].replace(".git", "")
+def delete_unzipped_folder(uploaded_file):
+    repo_name = uploaded_file.name.replace(".zip", "")
     clone_path = f"/tmp/{repo_name}"
     if os.path.exists(clone_path):
         shutil.rmtree(clone_path)
@@ -87,11 +93,11 @@ def main():
 
     with st.sidebar:
         st.subheader("Your Repository")
-        git_url = st.text_input("Paste your git repository URL here and click on 'Process'")
+        uploaded_file = st.file_uploader("Upload your repository as a .zip file and click on 'Process'", type=['zip'])
         if st.button("Process"):
             with st.spinner("Processing"):
-                # clone and load repo
-                raw_text = clone_and_load_repo(git_url)
+                # load and unzip file
+                raw_text = load_and_unzip_file(uploaded_file)
 
                 # get the text chunks
                 text_chunks = get_text_chunks(raw_text)
@@ -103,8 +109,8 @@ def main():
                 st.session_state.conversation = get_conversation_chain(
                     vectorstore)
 
-                # delete cloned repo
-                delete_repo(git_url)
+                # delete unzipped folder
+                delete_unzipped_folder(uploaded_file)
 
 
 if __name__ == '__main__':
