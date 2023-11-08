@@ -72,6 +72,9 @@ def handle_userinput(user_question):
 
 
 def main():
+    if not check_password():
+        st.error('Invalid password. Please try again.')
+        return
     load_dotenv()
     st.set_page_config(page_title="Chat with multiple PDFs",
                        page_icon=":books:")
