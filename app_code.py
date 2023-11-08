@@ -14,34 +14,20 @@ from llama_index import (
 )
 from llama_index.llms import OpenAI
 
-current_dir = os.getcwd()
 
 def load_and_unzip_file(uploaded_file):
-    # Get the current working directory
-    current_dir = os.getcwd()
-
-    # Download the GPTRepoReader resources into the current directory
-    GPTRepoReader = download_loader("GPTRepoReader", custom_path=current_dir)
-
-    # Extract the repository files to the current working directory
     with zipfile.ZipFile(uploaded_file, 'r') as zip_ref:
-        zip_ref.extractall(current_dir)
-
-    # Get the repository name from the uploaded file name
+        zip_ref.extractall('/tmp')
     repo_name = uploaded_file.name.replace(".zip", "")
-
-    # Construct the clone path based on the current working directory and repository name
-    clone_path = f"{current_dir}/{repo_name}"
-
-    # Load the data from the extracted repository
+    clone_path = f"/tmp/{repo_name}"
+    GPTRepoReader = download_loader("GPTRepoReader")
     loader = GPTRepoReader()
     documents = loader.load_data(repo_path=clone_path)
-
     return documents
 
 def delete_unzipped_folder(uploaded_file):
     repo_name = uploaded_file.name.replace(".zip", "")
-    clone_path = f"{current_dir}/{repo_name}"
+    clone_path = f"/tmp/{repo_name}"
     if os.path.exists(clone_path):
         shutil.rmtree(clone_path)
 
