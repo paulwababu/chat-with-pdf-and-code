@@ -68,6 +68,12 @@ def main():
     st.set_page_config(page_title="Chat with Git Repository",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
+    st.sidebar.subheader("Authentication")
+    password = st.sidebar.text_input("Enter your password", type="password")
+
+    if password != os.getenv("PASSWORD"):
+        st.error('Invalid password. Please try again.')
+        return
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
