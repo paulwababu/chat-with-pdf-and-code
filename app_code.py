@@ -20,7 +20,7 @@ def load_and_unzip_file(uploaded_file):
     clone_path = f"./{repo_name}"
     GPTRepoReader = download_loader("GPTRepoReader")
     loader = GPTRepoReader()
-    documents = loader.load_data(repo_path=clone_path)
+    documents = loader.load_data(custom_path=clone_path)
     return documents
 
 def delete_unzipped_folder(uploaded_file):
