@@ -18,7 +18,7 @@ def load_and_unzip_file(uploaded_file):
     with zipfile.ZipFile(uploaded_file, 'r') as zip_ref:
         zip_ref.extractall('/tmp')
     repo_name = uploaded_file.name.replace(".zip", "")
-    clone_path = f"/tmp/{repo_name}"
+    clone_path = f"./{repo_name}"
     GPTRepoReader = download_loader("GPTRepoReader")
     loader = GPTRepoReader()
     documents = loader.load_data(repo_path=clone_path)
@@ -26,7 +26,7 @@ def load_and_unzip_file(uploaded_file):
 
 def delete_unzipped_folder(uploaded_file):
     repo_name = uploaded_file.name.replace(".zip", "")
-    clone_path = f"/tmp/{repo_name}"
+    clone_path = f"./{repo_name}"
     if os.path.exists(clone_path):
         shutil.rmtree(clone_path)
 
