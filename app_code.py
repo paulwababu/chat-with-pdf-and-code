@@ -20,7 +20,7 @@ def load_and_unzip_file(uploaded_file):
     repo_name = uploaded_file.name.replace(".zip", "")
     clone_path = f"/tmp/{repo_name}"
     GPTRepoReader = download_loader("GPTRepoReader")
-    loader = GPTRepoReader(custom_path=os.getcwd())
+    loader = GPTRepoReader()
     documents = loader.load_data(repo_path=clone_path)
     return documents
 
