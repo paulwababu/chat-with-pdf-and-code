@@ -31,8 +31,8 @@ def get_text_chunks(text):
     return chunks
 
 
-def get_vectorstore(text_chunks):
-    embeddings = OpenAIEmbeddings()
+def get_vectorstore(text_chunks, api_key):
+    embeddings = OpenAIEmbeddings(openai_api_key=api_key)
     # embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl")
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     return vectorstore
@@ -71,11 +71,7 @@ def main():
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
     st.sidebar.subheader("Authentication")
-    password = st.sidebar.text_input("Enter your password", type="password")
-
-    if password != os.getenv("PASSWORD"):
-        st.error('Invalid password. Please try again.')
-        return
+    api_key = st.sidebar.text_input("Enter your API key", type="password")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
@@ -100,7 +96,7 @@ def main():
                 text_chunks = get_text_chunks(raw_text)
 
                 # create vector store
-                vectorstore = get_vectorstore(text_chunks)
+                vectorstore = get_vectorstore(text_chunks, api_key)
 
                 # create conversation chain
                 st.session_state.conversation = get_conversation_chain(
