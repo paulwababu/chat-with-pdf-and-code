@@ -35,12 +35,8 @@ def main():
     st.set_page_config(page_title="Chat with Git Repository",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
-    st.sidebar.subheader("Authentication")
-    password = st.sidebar.text_input("Enter your password", type="password")
-
-    if password != os.getenv("PASSWORD"):
-        st.error('Invalid password. Please try again.')
-        return
+    st.sidebar.subheader("Open AI API Key, Find it here: https://platform.openai.com/api-keys")
+    api_key = st.sidebar.text_input("Enter your API key", type="password")
 
     if "chat_engine" not in st.session_state:
         st.session_state.chat_engine = None
@@ -57,7 +53,7 @@ def main():
 
                 # Set up the service context with the desired model
                 service_context = ServiceContext.from_defaults(
-                    llm=OpenAI(model="gpt-3.5-turbo-16k", temperature=0, max_tokens=14384)
+                    llm=OpenAI(model="gpt-3.5-turbo-16k", temperature=0, max_tokens=14384, api_key=api_key)
                 )
                 set_global_service_context(service_context)
 

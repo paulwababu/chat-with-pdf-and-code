@@ -70,7 +70,7 @@ def main():
     st.set_page_config(page_title="Chat with multiple PDFs",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
-    st.sidebar.subheader("Authentication")
+    st.sidebar.subheader("Open AI API Key, Find it here: https://platform.openai.com/api-keys")
     api_key = st.sidebar.text_input("Enter your API key", type="password")
 
     if "conversation" not in st.session_state:
