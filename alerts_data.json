@@ -1,0 +1,827 @@
+{
+    "nasaFireAlerts": [
+        {
+            "title": "Wildfire in Russian Federation 1019862",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 66.50562396978965,
+            "longitude": 148.24692708678575,
+            "date": "2024-06-18T19:00:00Z",
+            "conversational_message": "\"Attention residents of Cherry Hill: There's a flood alert in effect until 10 PM. Please avoid low-lying areas & turn around, don't drown when encountering flooded roads. Stay safe. #FloodAlert #CherryHill\"",
+            "tags": [
+                "federation",
+                "wildfire",
+                "1019862",
+                "russian"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 20.3,
+            "longitude": -93.2,
+            "date": "2024-06-17T21:00:00Z",
+            "conversational_message": "Official Warning: Flash Flood Warning for Northeastern Raleigh County in southeastern West Virginia until 1:00 PM EDT. At 7:26 AM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Up to two inches of rain have already fallen. Flash flooding is anticipated to begin shortly. Residents near creeks and streams should move to higher ground immediately. \n\nSocial Media Post: Heads up, Northeastern Raleigh County! Heavy rains have started and we're expecting flash floods until 1 PM today. Stay safe and please move to higher ground if you're near creeks or streams. #flashfloodwarning #RaleighCounty #staysafe Tip: Always have a charged power bank during severe weather situations for emergency calls.",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 20.8,
+            "longitude": -93,
+            "date": "2024-06-18T03:00:00Z",
+            "conversational_message": "\ud83d\udea8Urgent flood warning for the River Severn at Shrewsbury. Prepare for high water levels & potential property flooding. Stay safe and remember, never walk or drive through floodwater. #FloodWarning #BePrepared \ud83c\udf0a\ud83d\ude97\ud83d\udeab",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 21.3,
+            "longitude": -93,
+            "date": "2024-06-18T09:00:00Z",
+            "conversational_message": "Official Report: Today, a high-level ozone alert has been issued by the Department of Environment. The alert applies to urban areas and nearby suburbs. Exposure to high levels of ozone can cause significant health issues including chest pain, coughing, throat irritation, and even lung damage. Specialists recommend avoiding rigorous outdoor activities and staying indoors as much as possible, particularly for those with respiratory conditions.\n\nSocial Media Post: Alert \ud83d\udea8 High-level ozone warning for our city and the surrounding suburbs. High ozone exposure can lead to health problems, including chest pain & lung damage. Tip: Limit outdoor activities and stay indoors especially if you have respiratory conditions. Your health matters. #OzoneAlert #StaySafe",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 21.8,
+            "longitude": -92.7,
+            "date": "2024-06-18T15:00:00Z",
+            "conversational_message": "\"URGENT: Severe flood warning for River Oak area due to heavy rainfall. Stay indoors, keep away from river edges. Be vigilant and ensure you're updated and prepared. #FloodAlert #StaySafe\"",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 22.1,
+            "longitude": -92.7,
+            "date": "2024-06-18T21:00:00Z",
+            "conversational_message": "Hey neighbors, we're expecting heavy showers later this week, potentially leading to floods. Keep an eye on the local news for updates. Avoid unnecessary travel and remember to secure outdoor belongings. #StaySafe #FloodAlert",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 22.5,
+            "longitude": -93,
+            "date": "2024-06-19T03:00:00Z",
+            "conversational_message": "Subject: Necessary Software Update\n\nDear Community,\n\nWe wanted to let you know there's an important update for our software available. It's crucial that you take some time to upgrade as it contains vital improvements and bug fixes which will enhance your overall user experience.\n\nTip: To make the process smoother, please ensure that you have a stable internet connection and your device has enough storage before starting the update.\n\nStay safe and happy updating,\n\n[Your Name]",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 22.7,
+            "longitude": -93.8,
+            "date": "2024-06-19T09:00:00Z",
+            "conversational_message": "Subject: Road Closure Alert - Main Street\n\nHey everyone, \n\nJust wanted to give you a heads up about the roadwork happening on Main Street from 10th to 15th avenues. The city has informed us about intermittent road closures over the next week, starting from tomorrow (Monday).\n\nIf you can, try to plan your journeys to avoid this area and save time. Remember to check real-time traffic updates in your navigation app to stay informed about the quickest routes.\n\nStay safe and drive carefully.",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 22.2,
+            "longitude": -95,
+            "date": "2024-06-19T15:00:00Z",
+            "conversational_message": "\"\ud83d\udea8Heavy rains are expected in our area. Please stay indoors whenever possible and drive safely if you need to be on the road. Remember to always prepare for potential flooding. Stay safe and dry, folks! \ud83d\udca6\ud83c\udf27\ufe0f #WeatherAlert\"",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 21.9,
+            "longitude": -95.3,
+            "date": "2024-06-19T21:00:00Z",
+            "conversational_message": "\"\u26a0\ufe0f Heads up folks! Severe weather conditions are forecasted in our area - high winds, heavy rain, possible flooding. Please stay safe and remember to follow local evacuation instructions. \ud83d\udc4d Don't forget your emergency kits! #WeatherAlert #StaySafe\"",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 21.5,
+            "longitude": -95.9,
+            "date": "2024-06-20T03:00:00Z",
+            "conversational_message": "\"Alert! Due to ongoing roadworks, Main St. will be closed tomorrow from 6AM-8PM. Avoid delays - take Elm St. as an alternative route. Stay safe! #TrafficAlert\"",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Tropical Cyclone Alberto",
+            "description": "",
+            "category": "Severe Storms",
+            "latitude": 22.3,
+            "longitude": -97.3,
+            "date": "2024-06-20T09:00:00Z",
+            "conversational_message": "\"EMERGENCY: City flood warning in effect. Severe rainfall expected within the next 24 hours. Stay safe everyone - remember to move to higher ground if nearby water levels start rising. #FloodWarning #StaySafe\"",
+            "tags": [
+                "cyclone",
+                "alberto",
+                "tropical"
+            ]
+        },
+        {
+            "title": "Wildfire in Australia 1019863",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -15.621904848555948,
+            "longitude": 129.760891149914,
+            "date": "2024-06-17T19:00:00Z",
+            "conversational_message": "\"Urgent weather advisory: Possible floods ahead due to expected heavy rainfall. Stay safe! Reminder: Avoid waterlogged areas and ensure loved ones are informed. #WeatherAlert #StaySafe\"",
+            "tags": [
+                "wildfire",
+                "1019863",
+                "australia"
+            ]
+        },
+        {
+            "title": "Wildfire in United States 1019864",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 33.27657379697286,
+            "longitude": -105.64559906199449,
+            "date": "2024-06-17T19:00:00Z",
+            "conversational_message": "\"Flood Alert: Rising water levels in Green Valley reported. Residents are advised to stay in safe places and avoid flood-prone areas. Remember to keep key documents, necessities, and emergency kits to higher ground for easy access. Stay safe, everyone. #GreenValleyFloodAlert\"",
+            "tags": [
+                "1019864",
+                "wildfire",
+                "united",
+                "states"
+            ]
+        },
+        {
+            "title": "Wildfire in Australia 1019865",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -13.043628596681506,
+            "longitude": 133.5260614346419,
+            "date": "2024-06-17T19:00:00Z",
+            "conversational_message": "Official Report: Recent studies show an alarming increase in phishing emails. These malicious attempts are often disguised as communication from reputable businesses to trick people into providing sensitive information. It's crucial to verify all emails before clicking on links or attachments.\n\nSocial Media Post: Heads up, folks! \ud83d\udce7 Phishing email attacks are on the rise according to recent studies. Stay vigilant! Always double-check emails, especially those appearing to come from reputable businesses- they might be attempts to steal your sensitive information. #CyberCrimeAlert #OnlineSafetyTip: If in doubt, don't click! \ud83d\udd12",
+            "tags": [
+                "1019865",
+                "wildfire",
+                "australia"
+            ]
+        },
+        {
+            "title": "Wildfire in United States 1019866",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 39.26009852148929,
+            "longitude": -122.42967737380634,
+            "date": "2024-06-17T19:00:00Z",
+            "conversational_message": "\"\u26a0\ufe0f Heavy rainfall expected in our region for the next 48 hours. Avoid outdoor activities & prepare for possible flooding. Stay safe by keeping your emergency kits ready. #WeatherAlert #StaySafe \ud83c\udf27\ufe0f\"",
+            "tags": [
+                "wildfire",
+                "1019866",
+                "united",
+                "states"
+            ]
+        },
+        {
+            "title": "Wildfire in Brazil 1019867",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -19.289342140903017,
+            "longitude": -57.17370557813702,
+            "date": "2024-06-17T19:00:00Z",
+            "conversational_message": "OFFICIAL FLOOD WARNING:\nThe National Weather Service has issued a flood warning for downtown Madison from Saturday at 7 a.m. until late Sunday night. Heavy rain and potential storm surges are expected. River levels are expected to reach critical levels. Local authorities are advising residents to be prepared and monitor local news for further information. Please refrain from driving through flooded streets or roads.\n\nSocial Media Post: \n\nHeads up, Madison folks! We're on a flood warning from Saturday 7 a.m. till late Sunday night. Heavy downpours and potential storm surges are on the radar. With river levels set to hit critical levels, let's all gear up and stay updated by keeping an eye on local news. Remember, never attempt to drive through flooded streets or roads. Stay safe! #MadisonFloodWarning #StaySafeMadison",
+            "tags": [
+                "brazil",
+                "wildfire",
+                "1019867"
+            ]
+        },
+        {
+            "title": "Wildfire in United States 1019855",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 33.36714566463279,
+            "longitude": -105.72193942407317,
+            "date": "2024-06-16T19:00:00Z",
+            "conversational_message": "\u26a0\ud83c\udf0a URGENT: Flood Alert issued for the Riverside area. Rising water levels in the region pose threats of inundation. Everyone, stay vigilant, keep an eye on local news updates and steer clear of flooded roads. Remember - Turn around, don't drown! Stay safe, Riverside! #RiversideFloodAlert \ud83c\udf0a\u26a0",
+            "tags": [
+                "wildfire",
+                "1019855",
+                "united",
+                "states"
+            ]
+        },
+        {
+            "title": "Wildfire in Russian Federation 1019870",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 65.7126495004195,
+            "longitude": 157.9826588364988,
+            "date": "2024-06-16T19:00:00Z",
+            "conversational_message": "Official Alert: A combination of high summer temperature and low humidity is prevailing in the region, leading to a severe risk of wildfires. All citizens are urged to avoid creating any outdoor fires including barbecues. All open fires should be reported immediately. Any smoke or suspicious activities should be reported without delay.\n\nSocial Media Update:\ud83d\udd25High Alert!\ud83d\udd25Due to extreme summer temps and low humidity, we're at severe risk for wildfires. Please refrain from any outdoor fires, including BBQs. If you spot any open fires, smoke, or suspicious activities, report them immediately. Your vigilance can keep our community safe! #WildfirePrevention\ud83d\udd25",
+            "tags": [
+                "federation",
+                "wildfire",
+                "russian",
+                "1019870"
+            ]
+        },
+        {
+            "title": "Wildfire in Russian Federation 1019871",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 66.77270863830982,
+            "longitude": 146.71738424130103,
+            "date": "2024-06-16T19:00:00Z",
+            "conversational_message": "Alert: There has been a recent increase in neighborhood pets going missing. We want to underscore that pet owners have a responsibility to ensure the safety of their animals. It is strongly encouraged that all pets are closely monitored and supervised especially during hours of darkness.\n\nCommunity Post: \n\nSubject: Uptick in Missing Pets in Our Neighborhood\n\nHey neighbors,\n\nIt's been noted that there's been a rise in pets going missing from our community recently. It's important for each pet owner to take charge and ensure the safety of their furry friends. Please double-check your fences, gates, and routinely scan your property for possible escape routes.\n\nAnother good practice would be to supervise your pets closely, especially when it's dark outside. Help us keep our community safe and let's look out for each other's pets.\n\nStay vigilant and let's keep our pets safe!\n\nTip: Pet surveillance cameras can be an affordable and effective method to watch over your pets, day and night.",
+            "tags": [
+                "federation",
+                "wildfire",
+                "russian",
+                "1019871"
+            ]
+        },
+        {
+            "title": "Wildfire in Russian Federation 1019856",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 64.51608237614225,
+            "longitude": 156.6579489049529,
+            "date": "2024-06-14T19:00:00Z",
+            "conversational_message": "\"According to the recent official report, there has been a significant uptick in phishing scams targeting users' personal details. Stay safe online by never sharing your personal information in unsecured platforms. Always double-check the source before clicking on any links. Stay vigilant; your online safety matters. #OnlineSafety #PhishingScams\"",
+            "tags": [
+                "federation",
+                "wildfire",
+                "russian",
+                "1019856"
+            ]
+        },
+        {
+            "title": "Wildfire in Brazil 1019839",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -17.671302478650173,
+            "longitude": -57.28393213498251,
+            "date": "2024-06-13T19:00:00Z",
+            "conversational_message": "\"\u26a0\ufe0fHeavy rainfall expected tonight between 8PM to 2AM \ud83c\udf27 Keep safe, stay indoors and avoid unnecessary travel! #weatheralert #staysafe\"",
+            "tags": [
+                "brazil",
+                "wildfire",
+                "1019839"
+            ]
+        },
+        {
+            "title": "Wildfire in Botswana 1019845",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -20.02206700721789,
+            "longitude": 24.83401145650008,
+            "date": "2024-06-13T19:00:00Z",
+            "conversational_message": "\"URGENT: Severe weather warning issued for our area. Expect heavy rainfall and potential flooding. Please stay indoors and ensure your emergency kits are prepared. Stay safe!\"",
+            "tags": [
+                "wildfire",
+                "botswana",
+                "1019845"
+            ]
+        },
+        {
+            "title": "Wildfire in Australia 1019853",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -13.121198778578076,
+            "longitude": 132.08417267814752,
+            "date": "2024-06-13T19:00:00Z",
+            "conversational_message": "\ud83d\udea8 URGENT: High flood level warnings for Central River Region. Immediate evacuation is advised. Remember to turn off utilities before leaving. Stay safe, avoid flooded areas. #emergencyalert #floodwarning \ud83d\udea8",
+            "tags": [
+                "1019853",
+                "wildfire",
+                "australia"
+            ]
+        },
+        {
+            "title": "Wildfire in Russian Federation 1019857",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 60.04986605415172,
+            "longitude": 134.13260040393624,
+            "date": "2024-06-13T19:00:00Z",
+            "conversational_message": "Formal Alert: \nThe management has noticed with growing concern the escalating trend of illegal parking within the community premises. This not only contributes to disorganized settings but also imposes a safety hazard to the residents. As per community rules and regulations, residents are kindly requested to strictly observe and adhere to the assigned parking slots for their respective vehicles. Non-compliance would result in penalties as stipulated in community bye-laws. \n\nCommunity Post:\nSubject: Please Park within Assigned Slots\n\nDear Residents,\n\nWe've noticed an increase in illegal parking across our community. This not only creates disarray but also poses a safety risk. Please remember to park only in your assigned slots to maintain order and ensure the safety of all residents. \nNon-compliance may lead to penalties set out in our community bylaws.\n\nHere's a tip: If you regularly find it tough to locate your assigned parking slot, consider using a parking spot reminder app or take a picture of your parking slot number. \n\nThank you for understanding and helping keep our community organized and safe.\n\nBest,\n[Your Name]\n[Your Position]",
+            "tags": [
+                "federation",
+                "wildfire",
+                "russian",
+                "1019857"
+            ]
+        },
+        {
+            "title": "Wildfire in Russian Federation 1019868",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 66.34800010503768,
+            "longitude": 149.44755942026507,
+            "date": "2024-06-13T19:00:00Z",
+            "conversational_message": "Heads up, folks - possible heavy flooding ahead due to recent heavy rainfall in our region. Be safe and move to higher ground if necessary. Please remember to turn around instead of driving through flooded roads. #floodwarning #staysafe",
+            "tags": [
+                "1019868",
+                "federation",
+                "wildfire",
+                "russian"
+            ]
+        },
+        {
+            "title": "Wildfire in Zambia 1019840",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -14.774490930290243,
+            "longitude": 26.468053102960674,
+            "date": "2024-06-12T19:00:00Z",
+            "conversational_message": "Hi all, weather services predict heavy rainfall that may result in flooding. Clear your drains to prevent water from accumulating and stay updated on alerts. Stay safe. #CommunityAlert #FloodPrevention",
+            "tags": [
+                "1019840",
+                "wildfire",
+                "zambia"
+            ]
+        },
+        {
+            "title": "Wildfire in Australia 1019841",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -16.628472234184954,
+            "longitude": 137.3280985860007,
+            "date": "2024-06-12T19:00:00Z",
+            "conversational_message": "Stay aware, community! Heavy rainfall is expected this week, which could potentially lead to flooding. Clear any nearby drains of debris to prevent water buildup. Safety first! #WeatherUpdate #StaySafe",
+            "tags": [
+                "1019841",
+                "wildfire",
+                "australia"
+            ]
+        },
+        {
+            "title": "Wildfire in Australia 1019842",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": -16.660030796521053,
+            "longitude": 137.1618343375941,
+            "date": "2024-06-12T19:00:00Z",
+            "conversational_message": "Official Warning: Due to potential severe weather conditions, all residents are advised to avoid non-essential travel and to stay indoors if possible. Please ensure your emergency supplies are well stocked. Be ready to evacuate should the decision be made for safety reasons.\n\nSocial Media Update: Heads up folks! Severe weather is forecasted.\ud83c\udf29\ufe0f Please avoid unnecessary travel and stay safe indoors. Don't forget to double-check your emergency supplies\ud83e\uddf0 and be prepared for possible evacuation. Stay safe, everyone! \ud83d\udea8 #WeatherAlert #SafetyFirst",
+            "tags": [
+                "1019842",
+                "wildfire",
+                "australia"
+            ]
+        },
+        {
+            "title": "Wildfire in Russian Federation 1019846",
+            "description": "",
+            "category": "Wildfires",
+            "latitude": 59.16594147671801,
+            "longitude": 131.4354712009206,
+            "date": "2024-06-12T19:00:00Z",
+            "conversational_message": "Alert: We have identified an increase in the instances of stealing personal property from gym lockers. Report any suspicious activity to our staff immediately. We urge you to avoid bringing valuables to the gym. Personal belongings are always safer at home.\n\nCommunity Post: \n\nHey everyone, we've noticed a recent uptick in thefts from gym lockers. If you see anything suspicious, please report it to our staff right away. As a friendly reminder, it's best to leave valuable items at home when you come to work out. Your property is always safest when it's with you. Thanks for your cooperation.",
+            "tags": [
+                "federation",
+                "wildfire",
+                "1019846",
+                "russian"
+            ]
+        }
+    ],
+    "weatherGovAlerts": [
+        {
+            "tweet_id": 1803546352346968357,
+            "tweet_text": "Warning: RT @MidwestWeather3: BRO continues Flood Watch till Jun 20, 1:00 PM CDT https://t.co/uYqg2nhmfA https://t.co/ioa8mWaDtP",
+            "created_at": "2024-06-19T21:52:13+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Flood\n2. Description of the event: The flood watch continues till June 20, 1:00 PM CDT.\n3. Exact location of the event: The location is not specified in the tweet.\n4. Unavailable information: The exact location of the event is not provided in the tweet.",
+            "tags": [
+                "bro",
+                "https://t.co/ioa8mwadtp",
+                "@midwestweather3:",
+                "watch",
+                "jun",
+                "1:00",
+                "till",
+                "continues",
+                "flood",
+                "https://t.co/uyqg2nhmfa",
+                "cdt",
+                "20,"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1803546352346968357",
+            "media_urls": [
+                "https://pbs.twimg.com/media/GQd6235aIAMNjL3.jpg"
+            ],
+            "conversational_message": "Hey folks, keep an eye out for possible floods until June 20, 1:00 PM CDT. Stay safe, move to higher ground if needed. #FloodWatch. Exact location details to follow."
+        },
+        {
+            "tweet_id": 1803542033296138396,
+            "tweet_text": "Warning: Evacuations order for flash flood emergency in Ruidoso area https://t.co/WK9HeXfM4T via @YouTube",
+            "created_at": "2024-06-19T21:35:03+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Flash flood\n2. Description of the event: Evacuation orders have been given due to a flash flood emergency.\n3. Exact location of the event: Ruidoso area (The tweet does not provide more specific location information)\n4. Not available information: More specific details about the event such as the cause, time, or extent of the flood are not provided in the tweet.",
+            "tags": [
+                "order",
+                "emergency",
+                "area",
+                "flash",
+                "evacuations",
+                "flood",
+                "ruidoso",
+                "https://t.co/wk9hexfm4t",
+                "via",
+                "@youtube"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1803542033296138396",
+            "media_urls": [],
+            "conversational_message": "\ud83d\udea8 URGENT: Residents of Ruidoso area, immediate evacuation ordered due to flash flood emergency! Stay safe & remember to turn Around - Don't Drown when encountering flooded roads. #RuidosoFlood \u26a0\ufe0f\ud83c\udf0a"
+        },
+        {
+            "tweet_id": 1802777745824334292,
+            "tweet_text": "Warning: RT @ARCfanHQ: O negative and O positive are the most in-demand blood types and the first to run out during a shortage.  Type O donors are c\u2026",
+            "created_at": "2024-06-17T18:58:03+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Blood shortage\n2. Description of the event: There is a shortage of the most in-demand blood types, O negative and O positive. Type O donors are urgently needed.\n3. Exact location of the event: The tweet does not provide specific location information.\n4. The tweet does not provide specific details about the location of the event.",
+            "tags": [
+                "positive",
+                "run",
+                "in-demand",
+                "type",
+                "shortage.",
+                "first",
+                "blood",
+                "donors",
+                "types",
+                "@arcfanhq:",
+                "negative"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802777745824334292",
+            "media_urls": [],
+            "conversational_message": "Urgent call to Type O donors. Our community is facing a critical shortage of O negative and O positive blood. Your help could save lives. Head to your nearest donation center today. \ud83e\ude78 #DonateBlood #OTypeNeeded"
+        },
+        {
+            "tweet_id": 1802776847018590397,
+            "tweet_text": "Warning: RT @JRSchwabz35187: Read \"A water war is looming between Mexico and the US. Neither side will win' on SmartNews: https://t.co/W5IgtFlmNx",
+            "created_at": "2024-06-17T18:54:28+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Water war\n2. Description of the event: A conflict over water resources is impending between Mexico and the US, with the assertion that neither side will benefit.\n3. Exact location of the event: Mexico and the US\n4. All the information is available and has been extracted.",
+            "tags": [
+                "neither",
+                "war",
+                "@jrschwabz35187:",
+                "smartnews:",
+                "win'",
+                "https://t.co/w5igtflmnx",
+                "water",
+                "read",
+                "side",
+                "mexico",
+                "us.",
+                "looming"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802776847018590397",
+            "media_urls": [],
+            "conversational_message": "\u203c\ufe0fAlert: Impending Water Resource Conflict between US and Mexico\ud83c\udf0a. Remember, both sides stand to lose with no clear benefits. #WaterConflict #GlobalIssue"
+        },
+        {
+            "tweet_id": 1802776544097763597,
+            "tweet_text": "Warning: RT @AV_Bulletin: Strong winds, steep terrain hamper crews battling Los Angeles area's first major fire of the year - MSN https://t.co/Dxy3G\u2026",
+            "created_at": "2024-06-17T18:53:16+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Fire\n2. Description of the event: Strong winds and steep terrain are hampering crews battling Los Angeles area's first major fire of the year.\n3. Exact location of the event: Los Angeles area\n4. All the required information is available in the tweet.",
+            "tags": [
+                "battling",
+                "strong",
+                "major",
+                "terrain",
+                "@av_bulletin:",
+                "steep",
+                "https://t.co/dxy3g\u2026",
+                "los",
+                "angeles",
+                "msn",
+                "first",
+                "hamper",
+                "year",
+                "area's",
+                "winds,",
+                "crews",
+                "fire"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802776544097763597",
+            "media_urls": [],
+            "conversational_message": "\ud83d\udd25ALERT: Fire crews battling against LA's first major fire of 2021, placed under heightened difficulty due to steep terrain and strong winds. Stay safe and keep updated. #LAFire #StaySafe"
+        },
+        {
+            "tweet_id": 1802776484714627080,
+            "tweet_text": "Warning: RT @KMPHFOX26: Please vote in our National Online Poll: Do you think non-citizens should be able to vote in state and local elections?\n\nhtt\u2026",
+            "created_at": "2024-06-17T18:53:02+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Not specified in the tweet\n2. Description of the event: Online voting poll\n3. Exact location of the event: Not specified in the tweet\n4. Additional information: The tweet is about a national online poll asking if non-citizens should be able to vote in state and local elections. The tweet does not provide any information about a specific event or its location.",
+            "tags": [
+                "poll:",
+                "national",
+                "think",
+                "vote",
+                "state",
+                "elections?",
+                "please",
+                "online",
+                "htt\u2026",
+                "@kmphfox26:",
+                "local",
+                "able",
+                "non-citizens"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802776484714627080",
+            "media_urls": [],
+            "conversational_message": "\"Join the latest national online poll: Should non-citizens be allowed to vote in state and local elections? Let's be a part of the change. Don't forget to check facts and think critically before you vote!\""
+        },
+        {
+            "tweet_id": 1802776386098401651,
+            "tweet_text": "Warning: RT @gms111: Here\u2019s how the Point Fire near Lake Sonoma is affecting air quality in North Bay https://t.co/2YrAIh7jwL",
+            "created_at": "2024-06-17T18:52:39+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Fire\n2. Description of the event: The Point Fire near Lake Sonoma is affecting air quality.\n3. Exact location of the event: Lake Sonoma, North Bay\n4. All the necessary information is available in the tweet.",
+            "tags": [
+                "https://t.co/2yraih7jwl",
+                "@gms111:",
+                "near",
+                "north",
+                "point",
+                "air",
+                "sonoma",
+                "quality",
+                "affecting",
+                "lake",
+                "bay",
+                "here\u2019s",
+                "fire"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802776386098401651",
+            "media_urls": [],
+            "conversational_message": "\ud83d\udd25 ALERT: #PointFire near #LakeSonoma is affecting air quality in the North Bay area. Stay safe, folks! Tip: Close windows and switch on air purifiers if you have them. Stay updated for more info. #FireAlert \ud83d\udd25"
+        },
+        {
+            "tweet_id": 1802776080098435557,
+            "tweet_text": "Warning: RT @MidwestWeather3: ILN issues Severe Thunderstorm Warning [wind: 60 MPH (RADAR INDICATED), hail: &lt;.75 IN (RADAR INDICATED)] for Wayne [IN\u2026",
+            "created_at": "2024-06-17T18:51:26+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Severe Thunderstorm\n2. Description of the event: The thunderstorm is indicated by radar with wind speeds of 60 MPH and hail less than .75 inches.\n3. Exact location of the event: Wayne, Indiana\n4. All information is available.",
+            "tags": [
+                "iln",
+                "warning",
+                "mph",
+                "hail:",
+                "[in\u2026",
+                "[wind:",
+                "&lt;.75",
+                "indicated),",
+                "@midwestweather3:",
+                "thunderstorm",
+                "indicated)]",
+                "wayne",
+                "severe",
+                "issues",
+                "(radar"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802776080098435557",
+            "media_urls": [],
+            "conversational_message": "Severe thunderstorm detected in Wayne, Indiana. Radar indicates wind speeds of 60 MPH & hail less than .75 inches. Stay indoors, away from windows until the storm passes. #WeatherUpdate #WayneIndianaWeather"
+        },
+        {
+            "tweet_id": 1802775639889461546,
+            "tweet_text": "Warning: RT @FIRIS: Monday morning update of the #PostFire, LAC.\n\nOES Intel 24, June 17 at 9:44 hours https://t.co/laiT7cuGa4",
+            "created_at": "2024-06-17T18:49:41+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Fire\n2. Description of the event: Monday morning update of the fire, specifically referred to as the #PostFire.\n3. Exact location of the event: The location is not explicitly mentioned in the tweet. However, \"LAC\" may refer to Los Angeles County.\n4. The tweet does not provide a detailed description of the event or the exact location.",
+            "tags": [
+                "24,",
+                "9:44",
+                "lac.",
+                "june",
+                "morning",
+                "https://t.co/lait7cuga4",
+                "monday",
+                "#postfire,",
+                "@firis:",
+                "hours",
+                "update",
+                "intel",
+                "oes"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802775639889461546",
+            "media_urls": [],
+            "conversational_message": "\u26a0\ufe0f#PostFire update for Monday morning! If you're in #Los Angeles County #LAC, please stay safe. Remember, in case of a fire - Exit immediately and call 911 from a safe location. \ud83d\udd25\ud83d\ude92\ud83d\udea8"
+        },
+        {
+            "tweet_id": 1802774026655236165,
+            "tweet_text": "Warning: RT @firehorse249791: [U.S] Point Fire grows northwest of Healdsburg, burning structures, threatening wineries https://t.co/808bjxBLip #Glob\u2026",
+            "created_at": "2024-06-17T18:43:16+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Fire\n2. Description of the event: The Point Fire is growing northwest of Healdsburg, burning structures and threatening wineries.\n3. Exact location of the event: Northwest of Healdsburg, U.S.\n4. All the required information is available in the tweet.",
+            "tags": [
+                "grows",
+                "healdsburg,",
+                "burning",
+                "point",
+                "[u.s]",
+                "northwest",
+                "threatening",
+                "wineries",
+                "https://t.co/808bjxblip",
+                "@firehorse249791:",
+                "structures,",
+                "#glob\u2026",
+                "fire"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802774026655236165",
+            "media_urls": [],
+            "conversational_message": "\ud83d\udd25ALERT: The Point Fire is rapidly spreading northwest of Healdsburg, endangering structures and wineries in its path. Stay safe and evacuate if necessary. Don't forget to pack your important documents in a waterproof case before leaving. #HealdsburgFire #FireSafety"
+        },
+        {
+            "tweet_id": 1802772798709854560,
+            "tweet_text": "Warning: RT @LosPadresNF: #PostFire has increased to 15,610 acres w/ 8% containment. Firefighters are securing the edge &amp; mopping up along the north\u2026",
+            "created_at": "2024-06-17T18:38:23+00:00",
+            "author_id": 1802733988039036928,
+            "author_name": "the_kellyhill",
+            "event_details": "1. Type of event: Wildfire\n2. Description of the event: The wildfire, referred to as #PostFire, has increased to 15,610 acres with 8% containment. Firefighters are working on securing the edge and mopping up along the north.\n3. Exact location of the event: The tweet doesn't provide an exact location, but it's likely in or near Los Padres National Forest, given the user handle. \n4. Not all information is available from the tweet. The exact location within or near Los Padres National Forest is not specified.",
+            "tags": [
+                "@lospadresnf:",
+                "&amp;",
+                "15,610",
+                "mopping",
+                "#postfire",
+                "increased",
+                "acres",
+                "north\u2026",
+                "containment.",
+                "securing",
+                "edge",
+                "along",
+                "firefighters"
+            ],
+            "tweet_url": "https://x.com/the_kellyhill/status/1802772798709854560",
+            "media_urls": [],
+            "conversational_message": "Heads up, community. The #PostFire wildfire situation has escalated. It now covers 15,610 acres and is only 8% contained. Firefighters are on site working hard. This is happening in or near Los Padres National Forest. Stay safe. Check your evacuation plans. #WildfireUpdate"
+        }
+    ],
+    "analytics": {
+        "total_events": 30,
+        "processed_tweets": 11,
+        "scheduled_posts": 256,
+        "popular_sites_down": 18,
+        "new_users": 345,
+        "alerts_sent": 789,
+        "most_active_users": [
+            "User123",
+            "User456"
+        ],
+        "events_over_time": {
+            "labels": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ],
+            "data": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                30,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "tweets_processed_over_time": {
+            "labels": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ],
+            "data": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                11,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "types_of_posts": {
+            "labels": [
+                "Alerts",
+                "Announcements",
+                "Updates",
+                "Reminders",
+                "Wildfires",
+                "Severe Storms"
+            ],
+            "data": [
+                0,
+                0,
+                0,
+                0,
+                19,
+                11
+            ]
+        },
+        "downtime_reports_by_category": {
+            "labels": [
+                "Website",
+                "Application",
+                "Network",
+                "Other"
+            ],
+            "data": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}
